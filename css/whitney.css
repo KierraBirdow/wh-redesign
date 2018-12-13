@@ -57,10 +57,11 @@ img{
 
 }
 
-#intro_paragraph h1{
+ h1{
   font-size: 5em;
   color: #C5B358;
-  text-align: center; 
+  text-align: center;
+  text-shadow: 2px 0px 0px #FFF; 
   padding: 3% 0 2% 0;
   position: relative;
   right: 500px;
