@@ -56,5 +56,10 @@ img{
 
 }
 
-#intro_paragraph h1{text-align: center; padding: 3% 0 2% 0;position: relative;
-  right: 500px;}
+#intro_paragraph h1{
+  color: #C5B358;
+  text-align: center; 
+  padding: 3% 0 2% 0;
+  position: relative;
+  right: 500px;
+}
