@@ -51,6 +51,7 @@ img{
 }
 
 #intro_paragraph{
-  text-align: center;
+  position: relative;
+  left: 400px;
 
 }
