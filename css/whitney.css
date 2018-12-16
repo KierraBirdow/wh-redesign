@@ -106,3 +106,11 @@ footer{
 img[src="images/whitney_hp3a_1589x1039-1024x670.jpg"]{
   height: 700px;
 }
+
+p#name{
+   font-size: 5em;
+  color: #C5B358;
+  text-align: center;
+  text-shadow: 2px 0px 0px #FFF;
+  padding: 3% 0 2% 0;
+}
