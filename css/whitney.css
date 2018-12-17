@@ -134,3 +134,7 @@ p:nth-child(6){
   margin-top: -7%;
 
 }
+
+#backdrop{
+  background-color: #000;
+}
