@@ -126,7 +126,7 @@ h1#bio_h1{
 
 }
 
-p:nth-child(6){
+div#backdrop p:nth-of-type(2){
   padding: 2% 0 0 2%;
   width: 579px;
   position: relative;
