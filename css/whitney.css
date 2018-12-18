@@ -138,6 +138,8 @@ div#backdrop p:nth-of-type(2){
   background-color: #000;
   color: #FFF;
   opacity: 0.8;
+  box-shadow: 2px 0px 10px #C5B358;
+  text-shadow: 2px 0px 10px #C5B358;
   width: 600px;
   position: relative;
   left: 400px;
