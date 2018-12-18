@@ -29,7 +29,7 @@ span{
 
   padding: 3px 3px 3px 32px;
   text-decoration: none;
-  text-shadow: 2px 2px 2px;
+  text-shadow: 2px 0px 10px;
   font-size: 30px;
   color: #FFF;
   display: block;
@@ -108,5 +108,43 @@ img[src="images/whitney_hp3a_1589x1039-1024x670.jpg"]{
 }
 
 p#name{
+<<<<<<< HEAD
 
+=======
+   font-size: 4em;
+  color: #C5B358;
+  text-align: center;
+  text-shadow: 2px 0px 0px #FFF;
+  padding: 3% 0 2% 0;
+  margin-top: 1%;
+}
+
+h1#bio_h1{
+  font-size: 5em;
+  color: #C5B358;
+  text-align: center;
+  text-shadow: 2px 0px 0px #FFF;
+  padding: 3% 0 2% 0;
+  margin-top: -18%;
+
+}
+
+div#backdrop p:nth-of-type(2){
+  font-size: 20px;
+  padding: 2% 0 0 2%;
+  width: 579px;
+  margin-top: -7%;
+
+}
+
+#backdrop{
+  background-color: #000;
+  color: #FFF;
+  opacity: 0.8;
+  box-shadow: 2px 0px 5px #C5B358;
+  text-shadow: 2px 0px 10px #C5B358;
+  width: 600px;
+  position: relative;
+  left: 400px;
+>>>>>>> bio_p_styling
 }
