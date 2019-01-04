@@ -108,9 +108,6 @@ img[src="images/whitney_hp3a_1589x1039-1024x670.jpg"]{
 }
 
 p#name{
-<<<<<<< HEAD
-
-=======
    font-size: 4em;
   color: #C5B358;
   text-align: center;
@@ -146,5 +143,4 @@ div#backdrop p:nth-of-type(2){
   width: 600px;
   position: relative;
   left: 400px;
->>>>>>> bio_p_styling
 }
