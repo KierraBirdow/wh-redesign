@@ -128,7 +128,7 @@ h1#bio_h1{
 
 div#backdrop p:nth-of-type(2){
   font-size: 20px;
-  padding: 2% 0 0 2%;
+  
   width: 579px;
   margin-top: -7%;
 
@@ -140,7 +140,22 @@ div#backdrop p:nth-of-type(2){
   opacity: 0.8;
   box-shadow: 2px 0px 5px #C5B358;
   text-shadow: 2px 0px 10px #C5B358;
+  padding: 2% 0 0 2%;
   width: 600px;
   position: relative;
   left: 400px;
+}
+
+/*GALLERY SECTION*/
+
+p#gallery_txt{
+  background-color: #000;
+  color: #FFF;
+  opacity: 0.8;
+  box-shadow: 2px 0px 5px #C5B358;
+  text-shadow: 2px 0px 10px #C5B358;
+  margin: 0 auto;
+  width: 701px;
+  padding: 2% 4% 2% 4%;
+  font-size: 20px;
 }
