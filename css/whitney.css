@@ -66,7 +66,7 @@ img{
   color: #fff;
   font-size: 20px;
   opacity: 0.8;
-  padding: 0px 3% 0px 3%;
+  padding: 1% 1% 0px 1%;
   position: relative;
   left: 400px;
   text-shadow: 1px 0px 0px #C5B358;
@@ -140,7 +140,7 @@ div#backdrop p:nth-of-type(2){
   opacity: 0.8;
   box-shadow: 2px 0px 5px #C5B358;
   text-shadow: 2px 0px 10px #C5B358;
-  padding: 2% 0 0 2%;
+  padding: 2% 2% 0 2%;
   width: 600px;
   position: relative;
   left: 400px;
@@ -168,3 +168,8 @@ div#gallery_images img{
   max-height: 199px;
   margin: 3% 5% 3% 5%;
 }
+
+a.gallery_link{
+  text-decoration: none;
+}
+
