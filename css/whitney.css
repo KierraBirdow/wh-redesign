@@ -99,6 +99,7 @@ footer{
   bottom: 0px;
   left: 0px;
   width: 100%;
+  clear: left;
 }
 
                   /*BIO SECTION*/
@@ -180,3 +181,27 @@ a.gallery_link{
 }
 
 /*ALBUMS SECTION*/
+
+@media only screen  and (max-width: 800px){
+
+  img[src="images/album_page_header_image.jpg"]{
+    max-height: 200px;
+
+}
+
+a.spotify_link{
+  
+}
+
+#albums img{
+  display: block;
+  float: left;
+  margin: 2% 0% 0% 5%;
+  max-width: 208px;
+  max-height: 153px;
+  position: relative;
+  z-index: 2;
+}
+
+
+}
