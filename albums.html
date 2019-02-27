@@ -7,6 +7,9 @@
   <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
   </head>
  <body>
+
+ 	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+ 	
  	<div id="mySidenav" class="sidenav">
 	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  <a href="#">Whitney</a>
@@ -23,9 +26,19 @@
 		<img src="images/3rd_album_cover.jpg" alt="the singer whitney houston" title="WH" width="" height="">
 		<img src="images/4th_album_cover.jpg" alt="the singer whitney houston" title="WH" width="" height="">
 		<img src="images/5th_album_cover.jpg" alt="the singer whitney houston" title="WH" width="" height="">
-		<img src="holiday_album.jpg" alt="the singer whitney houston" title="WH" width="" height="">
-		<img src="6th_album_cover.jpg" alt="the singer whitney houston" title="WH" width="" height="">
+		<img src="images/holiday_album.jpg" alt="the singer whitney houston" title="WH" width="" height="">
+		<img src="images/6th_album_cover.jpg" alt="the singer whitney houston" title="WH" width="" height="">
 	</div>
+
+		<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "160px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
 
 	<footer>Designed and Developed by kierra | &copy; 2018</footer>
 </body>
