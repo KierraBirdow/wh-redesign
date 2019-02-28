@@ -189,19 +189,91 @@ a.gallery_link{
 
 }
 
-a.spotify_link{
-  
-}
-
-#albums img{
+div#albums img{
   display: block;
   float: left;
   margin: 2% 0% 0% 5%;
   max-width: 208px;
-  max-height: 153px;
+  max-height: 153px;   
   position: relative;
-  z-index: 2;
+  z-index: -1000;
+  filter: grayscale(100%) blur(1px) opacity(.3);
+ 
+}
+  div#albums a.Spotify_link:nth-child(1){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 100px;
+  z-index: 1;
 }
 
+ a.Spotify_link:nth-child(3){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 340px;
+  z-index: 1;
+}
+ a.Spotify_link:nth-child(5){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 300px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 590px;
+  z-index: 1;
+}
+
+ a.Spotify_link:nth-child(7){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 500px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 60px;
+  z-index: 1;
+}
+
+ a.Spotify_link:nth-child(9){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 500px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 340px;
+  z-index: 1;
+}
+
+ a.Spotify_link:nth-child(11){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 500px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 580px;
+  z-index: 1;
+}
+
+ a.Spotify_link:nth-child(13){
+  color: #C5B358;
+  font-size: 24px;
+  position: absolute;
+  top: 640px;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #000;
+  left: 60px;
+  z-index: 1;
+}
 
 }
