@@ -180,63 +180,55 @@ a.gallery_link{
   margin: 0 0 1%;
 }
 
-/*ALBUMS SECTION*/
+/* ALBUM SECTION(desktop version)*/
+@media only screen and (min-width: 768px){
+  div#albums > img{
+    margin-right: 6%;
+    margin-left: 1%;
+    width: 247px;
+    height: 249px;
+    position: relative;
+    z-index: -1000;
+    filter: grayscale(100%) blur(1px) opacity(.3);
+  }
 
-@media only screen  and (max-width: 800px){
-
-  img[src="images/album_page_header_image.jpg"]{
-    max-height: 200px;
-
-}
-
-div#albums img{
-  display: block;
-  float: left;
-  margin: 2% 0% 0% 5%;
-  max-width: 208px;
-  max-height: 153px;   
-  position: relative;
-  z-index: -1000;
-  filter: grayscale(100%) blur(1px) opacity(.3);
- 
-}
-  div#albums a.Spotify_link:nth-child(1){
+   div#albums a.Spotify_link:nth-child(1){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 300px;
+  top: 700px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 100px;
+  left: 70px;
   z-index: 1;
 }
 
  a.Spotify_link:nth-child(3){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 300px;
+  top: 700px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 340px;
+  left: 400px;
   z-index: 1;
 }
  a.Spotify_link:nth-child(5){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 300px;
+  top: 700px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 590px;
+  left: 730px;
   z-index: 1;
 }
 
  a.Spotify_link:nth-child(7){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 500px;
+  top: 930px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
   left: 60px;
@@ -245,35 +237,34 @@ div#albums img{
 
  a.Spotify_link:nth-child(9){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 500px;
+  top: 930px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 340px;
+  left: 390px;
   z-index: 1;
 }
 
  a.Spotify_link:nth-child(11){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 500px;
+  top: 970px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 580px;
+  left: 750px;
   z-index: 1;
 }
 
  a.Spotify_link:nth-child(13){
   color: #C5B358;
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
-  top: 640px;
+  top: 1211px;
   text-decoration: none;
   text-shadow: 2px 2px 5px #000;
-  left: 60px;
+  left: 40px;
   z-index: 1;
 }
-
-}
+  }
