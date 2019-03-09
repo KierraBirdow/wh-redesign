@@ -90,13 +90,21 @@
 	  margin-top: -40px;
 	}
 
-	iframe:nth-child(5){width: 33.33%;}
-	iframe:nth-child(6){width: 25%;}
-	iframe:nth-child(7){width: 25%;}
-	iframe:nth-child(8){width: 25%;}
+	iframe:nth-child(5){
+		width: 33.33%;
+		display: block; 
+		margin: 0 auto;
+		}
+	
+	div.bottom_videos iframe{
+		display: inline-block;
+		width: 30.33%;
+	}
+
+	div.bottom_videos{text-align: center;}
 
 }
-	</style>
+</style>
 </head>
 <body>
 	 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
@@ -115,11 +123,13 @@
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/3JWTaaS7LdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div class="bottom_videos">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/IYzlVDlE72w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/eH3giaIzONA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/m3-hY-hlhBg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 	<script>
 		function openNav() {
